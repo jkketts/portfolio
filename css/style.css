@@ -1,0 +1,146 @@
+
+
+p, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+#projects{
+    margin-top:150px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size:48px;
+    margin:0;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size:40px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-style:thin;
+    text-align: center;
+
+}
+
+h3 {
+    font-size:28px;
+    font-family: 'Lato', sans-serif;
+    text-align:center;
+    margin:10px;
+}
+
+.tan {
+    background-color: #C0C5C1;
+    min-height: 200px;
+    position: relative;
+}
+
+.vert-center {
+    position: absolute;
+    top: 50%;
+    height: 150px;
+    margin-top: -75px;
+    margin-left:25px;
+    display:block;
+}
+
+.tan > p {
+    margin-left: 250px;
+    padding-top: 10px;
+    padding-right: 25px;
+    display:block;
+}
+
+body {
+    background: #3f334d;
+    background-image: url("zenbg-1.png"), url("zenbg-2.png");
+    background-repeat: repeat-x, repeat;
+    padding: 0;
+    margin: 0;
+}
+
+#icons {
+    text-align: center;
+    display: block;
+}
+
+.fa {
+    padding: 0 10px 0 10px;
+}
+
+#icons  p{
+    display:inline-block;
+    padding-left: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 6%;
+    background-color: #574B60;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+}
+
+li a:hover {
+    background-color: #3F334D
+}
+
+.content {
+    background-color: white;
+    margin:auto;
+    min-width: 760px;
+    width: 75%;
+    height:100%;
+    opacity: .95;
+}
+
+footer {
+    background-color:black;
+}
+
+footer > h5 {
+    font-size:20px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom:0px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding:20px;
+}
+
+footer p {
+    text-align: center;
+    margin-top:0px;
+}
+
+
+.button  {
+    font-family: 'Raleway';
+    display:inline-block;
+    background-color:#C0C5C1;
+    border:none;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding-top:5px;
+    font-size:16px;
+}
